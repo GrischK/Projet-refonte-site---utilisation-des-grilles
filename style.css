@@ -23,8 +23,8 @@ body{
 
 .header_nav_img{
     height: 1.5em;
-    margin-left: 0.2em;
-    margin-right: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #nav_icon_block{
@@ -59,6 +59,11 @@ body{
 #nav_list{
     display: flex;
     list-style: none;
+    border-top: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 0;
 }
 
 #nav_list li{
@@ -70,6 +75,11 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+#moreitems_section h1, #moreitems_section p{
+    margin-left: 10px;
 }
 
 #customize_button{
@@ -78,4 +88,5 @@ body{
     background-color: rgb(12, 180, 188);
     padding: 2px;
     color: white;
+    margin-left: 300%;
 }
