@@ -3,7 +3,9 @@ body{
 }
 
 #logo_vinted{
-    height: 3em;
+    height: 5em;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #header_nav{
@@ -11,11 +13,18 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     margin: auto;
+    height: 80px;
 }
 
 .header_nav_icon{
     height: 1.5em;
     margin: auto;
+}
+
+.header_nav_img{
+    height: 1.5em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
 }
 
 #nav_icon_block{
@@ -33,7 +42,7 @@ body{
 }
 
 #logo{
-    height: 3em;
+    height: 100%;
 }
 
 #nav_searchbar{
@@ -50,5 +59,23 @@ body{
 #nav_list{
     display: flex;
     list-style: none;
-    justify-content: space-around;
+}
+
+#nav_list li{
+    margin-right: 1em;
+}
+
+#moreitems_section{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+#customize_button{
+    margin: 50%;
+    width: 100%;
+    background-color: rgb(12, 180, 188);
+    padding: 2px;
+    color: white;
 }
