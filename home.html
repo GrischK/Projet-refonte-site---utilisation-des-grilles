@@ -4,12 +4,33 @@
     <head>  
         <title>Vinted de Grisch</title>
         <meta charset="UTF-8"/>
-        <link href="style.css" rel=="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <nav>
-            <div id="gridnav">
-                <div>kjhkjgkjgkjgkgglig</div>
-            </div>
-        </nav>
+        <header>
+            <nav id="header_nav">
+                <div id="logo_vinted">
+                    <img src="img/Vinted_logo.png" alt="logo_vinted" id="logo">
+                </div>
+                <div id="nav_searchbar">
+                    <input id="searchbar" onkeyup="search_items()" type="text"
+                    name="search" placeholder="Rechercher des articles">
+                </div>
+                <div id="nav_icon_block">
+                    <div class="header_nav_icon"><img src="img/contact.png" alt="contact" class="header_nav_icon"></div>
+                    <div class="header_nav_icon"><img src="img/notification.png" alt="notification" class="header_nav_icon"></div>
+                    <div class="header_nav_icon"><img src="img/favorite.png" alt="favorite" class="header_nav_icon"></div>   
+                 </div>
+            </nav>
+            <nav>
+                <ul id="nav_list">
+                    <li>Femmes</li>
+                    <li>Hommes</li>
+                    <li>Enfants</li>
+                    <li>Maison</li>
+                    <li>A propos</li>
+                    <li>Notre plateforme</li>
+                </ul>
+            </nav>
+        </header>
     </body>

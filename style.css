@@ -1,3 +1,54 @@
 body{
     background: beige;
 }
+
+#logo_vinted{
+    height: 3em;
+}
+
+#header_nav{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.header_nav_icon{
+    height: 1.5em;
+    margin: auto;
+}
+
+#nav_icon_block{
+    display: flex;
+}
+
+#nav_icon_block{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;   
+}
+
+*{
+    border: 1px solid black;
+}
+
+#logo{
+    height: 3em;
+}
+
+#nav_searchbar{
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20%;
+}
+
+#searchbar{
+    width: 100%;
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
