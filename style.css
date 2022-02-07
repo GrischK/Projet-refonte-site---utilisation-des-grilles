@@ -37,19 +37,15 @@ body{
     margin-left: 10%;   
 }
 
-*{
-    border: 1px solid black;
-}
-
 #logo{
     height: 100%;
 }
 
 #nav_searchbar{
-    width: 200px;
+    width: 400px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 #searchbar{
@@ -89,4 +85,21 @@ body{
     padding: 2px;
     color: white;
     margin-left: 300%;
+}
+
+.grid{
+    margin-top: 50px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+}
+
+.grid img{
+    border: 1px solid rgb(212, 212, 212);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
